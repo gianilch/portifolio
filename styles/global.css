@@ -1,0 +1,45 @@
+:root {
+  --color-red: #E3646E;
+  --color-purple: #BB72E9;
+  --color-blue: #3996DB;
+  --color-green: #82BC4F;
+  --color-yellow: #EABD5F;
+  --color-gray-100: #E2E4E9;
+  --color-gray-200: #C0C4CE;
+  --color-gray-300: #878EA1;
+  --color-gray-400: #292C34;
+  --color-gray-500: #16181D;
+  --color-gray-600: #0D0E11;
+
+  --font-asap: 'Asap', sans-serif;
+  --font-inconsolata: 'Inconsolata', monospace;
+  --font-maven-pro: 'Maven Pro', sans-serif;
+
+  --title-lg: bold 3.5rem/1.2 var(--font-asap);
+  --title-md: bold 1.5rem/1.2 var(--font-asap);
+  --title-sm: bold 1rem/1.2 var(--font-asap);
+
+  --subtitle: 1.25rem/1.2 var(--font-inconsolata);
+
+  --text-md: 1rem/1.4 var(--font-maven-pro);
+  --text-sm: 0.875rem/1.4 var(--font-maven-pro);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: var(--text-md);
+  color: var(--color-gray-200);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
