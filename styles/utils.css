@@ -1,0 +1,27 @@
+.title-lg {
+  font: var(--title-lg);
+}
+
+.subtitle {
+  font: var(--subtitle);
+}
+
+.text-sm {
+  font: var(--text-sm);
+}
+
+.color-red {
+  color: var(--color-red);
+}
+
+.base-gray-100 {
+  color: var(--color-gray-100);
+}
+
+.base-gray-300 {
+  color: var(--color-gray-300);
+}
+
+.pt-4 {
+  padding-top: 16px;
+}

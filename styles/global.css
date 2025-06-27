@@ -1,3 +1,5 @@
+@import url('./utils.css');
+
 :root {
   --color-red: #E3646E;
   --color-purple: #BB72E9;
@@ -34,6 +36,7 @@
 body {
   font: var(--text-md);
   color: var(--color-gray-200);
+  background-color: var(--color-gray-400);
 }
 
 a {
@@ -42,4 +45,9 @@ a {
 
 ul {
   list-style: none;
+}
+
+.container {
+  width: 1040px;
+  margin-inline: auto;
 }
