@@ -2,26 +2,34 @@
   font: var(--title-lg);
 }
 
-.subtitle {
-  font: var(--subtitle);
+.title-md {
+  font: var(--title-md);
 }
 
 .text-sm {
   font: var(--text-sm);
 }
 
+.subtitle {
+  font: var(--subtitle);
+}
+
 .color-red {
   color: var(--color-red);
 }
 
-.base-gray-100 {
+.color-gray-100 {
   color: var(--color-gray-100);
 }
 
-.base-gray-300 {
+.color-gray-300 {
   color: var(--color-gray-300);
 }
 
 .pt-4 {
   padding-top: 16px;
+}
+
+.bg-color-gray-500 {
+  background-color: var(--color-gray-500);
 }
