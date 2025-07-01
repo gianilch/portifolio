@@ -1,5 +1,6 @@
 main #projects-wrapper {
-  height: 750px;
+  height: 1025px;
+  width: 1366px;
 
   header {
     padding-top: 72px;
@@ -7,5 +8,43 @@ main #projects-wrapper {
     flex-direction: column;
     align-items: center;
     gap: 116px;
+  }
+
+  #cards-wrapper {
+    padding-top: 56px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .card {
+      border: 1.5px solid transparent;
+      transition: border-color 0.1s;
+
+      &:hover {
+        border: 1.5px solid var(--color-gray-300);
+      }
+
+      padding: 12px 12px 17px 12px;
+      width: 330px;
+      height: 280px;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      img {
+        width: 306px;
+        height: 156px;
+        border-radius: 8px;
+        object-fit: cover;
+      }
+
+      .card-infos {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+    }
   }
 }

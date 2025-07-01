@@ -6,6 +6,10 @@
   font: var(--title-md);
 }
 
+.title-sm {
+  font: var(--title-sm);
+}
+
 .text-sm {
   font: var(--text-sm);
 }
@@ -22,14 +26,23 @@
   color: var(--color-gray-100);
 }
 
-.color-gray-300 {
-  color: var(--color-gray-300);
+.color-gray-200 {
+  color: var(--color-gray-200);
+}
+
+.color-gray-400 {
+  color: var(--color-gray-400);
+}
+
+
+.bg-gray-400 {
+  background-color: var(--color-gray-400);
+}
+
+.bg-gray-500 {
+  background-color: var(--color-gray-500);
 }
 
 .pt-4 {
   padding-top: 16px;
-}
-
-.bg-color-gray-500 {
-  background-color: var(--color-gray-500);
 }

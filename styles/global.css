@@ -41,6 +41,8 @@ body {
 
 a {
   text-decoration: none;
+  font: inherit;
+  color: inherit;
 }
 
 ul {
