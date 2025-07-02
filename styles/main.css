@@ -24,12 +24,12 @@ main #jobs-wrapper {
 
 }
 
-#jobs-background {
+main #jobs-background {
   background-color: var(--color-gray-600);
   width: 100%;
 }
 
-.cards-wrapper {
+main .cards-wrapper {
   padding-top: 56px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
