@@ -30,6 +30,10 @@
   color: var(--color-gray-200);
 }
 
+.color-gray-300 {
+  color: var(--color-gray-300);
+}
+
 .color-gray-400 {
   color: var(--color-gray-400);
 }

@@ -1,6 +1,5 @@
 main #projects-wrapper {
   height: 1025px;
-  width: 1366px;
 
   header {
     padding-top: 72px;
@@ -10,41 +9,80 @@ main #projects-wrapper {
     gap: 116px;
   }
 
-  #cards-wrapper {
-    padding-top: 56px;
+}
+
+main #jobs-wrapper {
+  height: 480px;
+
+  header {
+    padding-top: 88px;
     display: flex;
-    gap: 24px;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
 
-    .card {
-      border: 1.5px solid transparent;
-      transition: border-color 0.1s;
+}
 
-      &:hover {
-        border: 1.5px solid var(--color-gray-300);
-      }
+#jobs-background {
+  background-color: var(--color-gray-600);
+  width: 100%;
+}
 
-      padding: 12px 12px 17px 12px;
-      width: 330px;
-      height: 280px;
+.cards-wrapper {
+  padding-top: 56px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+
+  justify-self: center;
+
+  .card {
+    border: 1.5px solid transparent;
+    transition: border-color 0.1s;
+
+    &:hover {
+      border: 1.5px solid var(--color-gray-300);
+    }
+
+    padding: 12px 12px 17px 12px;
+    width: 330px;
+    height: 280px;
+    border-radius: 8px;
+    display: grid;
+    gap: 20px;
+
+    img {
+      width: 306px;
+      height: 156px;
       border-radius: 8px;
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
+      object-fit: cover;
+    }
 
-      img {
-        width: 306px;
-        height: 156px;
-        border-radius: 8px;
-        object-fit: cover;
-      }
+    .card-infos {
+      display: grid;
+      gap: 8px;
+    }
+  }
 
-      .card-infos {
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-      }
+  .jobs-card {
+    img {
+      height: 50px;
+    }
+
+    border: 1.5px solid var(--color-gray-500);
+    transition: border-color 0.1s;
+
+    padding: 20px;
+    width: 280px;
+    height: 155px;
+    border-radius: 12px;
+    display: grid;
+    gap: 27.5px;
+
+    .card-infos {
+      display: grid;
+      gap: 8px;
     }
   }
 }
